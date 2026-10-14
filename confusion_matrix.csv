@@ -1,0 +1,9 @@
+,predicted_barangay_clearance,predicted_business_clearance,predicted_residency,predicted_indigency,predicted_lupon_complaint,predicted_vaw_report,predicted_child_protection,predicted_disaster_report
+actual_barangay_clearance,20,0,0,0,0,0,0,0
+actual_business_clearance,0,20,0,0,0,0,0,0
+actual_residency,0,0,20,0,0,0,0,0
+actual_indigency,0,0,0,20,0,0,0,0
+actual_lupon_complaint,0,0,0,0,20,0,0,0
+actual_vaw_report,0,0,0,0,0,20,0,0
+actual_child_protection,0,0,0,0,0,0,20,0
+actual_disaster_report,0,0,0,0,0,0,0,20

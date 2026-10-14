@@ -1,0 +1,50 @@
+MARITESS SERVICE CLASSIFICATION MODEL EVALUATION
+================================================
+Dataset: service_dataset.csv
+Unique examples used: 800
+Training examples: 640
+Test examples: 160
+
+Examples per label:
+label
+barangay_clearance    100
+business_clearance    100
+child_protection      100
+disaster_report       100
+indigency             100
+lupon_complaint       100
+residency             100
+vaw_report            100
+
+Accuracy: 1.0000
+Macro F1-score: 1.0000
+
+Classification report:
+                    precision    recall  f1-score   support
+
+barangay_clearance      1.000     1.000     1.000        20
+business_clearance      1.000     1.000     1.000        20
+         residency      1.000     1.000     1.000        20
+         indigency      1.000     1.000     1.000        20
+   lupon_complaint      1.000     1.000     1.000        20
+        vaw_report      1.000     1.000     1.000        20
+  child_protection      1.000     1.000     1.000        20
+   disaster_report      1.000     1.000     1.000        20
+
+          accuracy                          1.000       160
+         macro avg      1.000     1.000     1.000       160
+      weighted avg      1.000     1.000     1.000       160
+
+
+Confusion matrix:
+                           predicted_barangay_clearance  predicted_business_clearance  predicted_residency  predicted_indigency  predicted_lupon_complaint  predicted_vaw_report  predicted_child_protection  predicted_disaster_report
+actual_barangay_clearance                            20                             0                    0                    0                          0                     0                           0                          0
+actual_business_clearance                             0                            20                    0                    0                          0                     0                           0                          0
+actual_residency                                      0                             0                   20                    0                          0                     0                           0                          0
+actual_indigency                                      0                             0                    0                   20                          0                     0                           0                          0
+actual_lupon_complaint                                0                             0                    0                    0                         20                     0                           0                          0
+actual_vaw_report                                     0                             0                    0                    0                          0                    20                           0                          0
+actual_child_protection                               0                             0                    0                    0                          0                     0                          20                          0
+actual_disaster_report                                0                             0                    0                    0                          0                     0                           0                         20
+
+LIMITATION: This dataset is synthetic. Scores measure performance on this held-out split only and do not establish real-world performance. Review examples and test with representative, consented messages before any real deployment.
